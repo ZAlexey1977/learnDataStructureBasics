@@ -29,9 +29,32 @@ log('www');
 
 //////////////////////////////////////////// unit 4 //////////////////////////////////////////
 
+// function popShift(arr) {
+//   let popped = arr.pop(); // Змініть цей рядок
+//   let shifted = arr.shift(); // Змініть цей рядок
+//   return [shifted, popped];
+// }
+
+// console.log(popShift(['challenge', 'is', 'not', 'complete']));
+
 //////////////////////////////////////////// unit 5 //////////////////////////////////////////
 
+// const arr = [2, 4, 5, 1, 7, 5, 2, 1];
+// // Змініть код лише під цим рядком
+// arr.splice(1,4);
+// // Змініть код лише над цим рядком
+// console.log(arr);
+
 //////////////////////////////////////////// unit 6 //////////////////////////////////////////
+
+// function htmlColorNames(arr) {
+//   // Змініть код лише під цим рядком
+// arr.splice(0,2, 'DarkSalmon', 'BlanchedAlmond');
+//   // Змініть код лише над цим рядком
+//   return arr;
+// }
+
+// console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
 
 //////////////////////////////////////////// unit 7 //////////////////////////////////////////
 
