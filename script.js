@@ -1,8 +1,5 @@
 let log = console.log;
 
-log('www');
-
-
 //////////////////////////////////////////// unit 1 //////////////////////////////////////////
 
 // let yourArray = ['Hello', 1, 3, true, 'World']; // Змініть цей рядок
@@ -94,22 +91,52 @@ log('www');
 
 //////////////////////////////////////////// unit 10 //////////////////////////////////////////
 
-function quickCheck(arr, elem) {
-  // Змініть код лише під цим рядком
-  if (arr.indexOf(elem) >= 0) {
-    return true;
-  }
-  else {
-    return false;
-  }
-  // Змініть код лише над цим рядком
-}
+// function quickCheck(arr, elem) {
+//   // Змініть код лише під цим рядком
+//   if (arr.indexOf(elem) >= 0) {
+//     return true;
+//   }
+//   else {
+//     return false;
+//   }
+//   // Змініть код лише над цим рядком
+// }
 
-log(quickCheck(['squash', 'onions', 'shallots'], 'mushroooms'));
+// log(quickCheck(['squash', 'onions', 'shallots'], 'mushroooms'));
 
 //////////////////////////////////////////// unit 11 //////////////////////////////////////////
 
+// function filteredArray(arr, elem) {
+//   let newArr = [];
+//   // Змініть код лише під цим рядком
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i].indexOf(elem) == -1) {
+//       newArr.push(arr[i]);
+//     }
+//   }
+//   // Змініть код лише над цим рядком
+//   return newArr;
+// }
+
+// log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3));
+
 //////////////////////////////////////////// unit 12 //////////////////////////////////////////
+
+// let myNestedArray = [
+//   // Змініть код лише під цим рядком
+//   ['unshift', false, 1, 2, 3, 'complex', 'nested'],
+//   ['loop', 'shift', 6, 7, 1000, 'method'],
+//   ['concat', false, true, 'spread', 'array'],
+//   ['mutate', 1327.98, 'splice', 'slice', 'push'],
+//   ['iterate', 1.3849, 7, '8.4876', 'arbitrary', 'depth']
+//   // Змініть код лише над цим рядком
+// ];
+
+// myNestedArray[2][5] = [true, 'deep', 1];
+// myNestedArray[2][5][0] = [false, 'deeper', 2];
+// myNestedArray[2][5][0][0] = ['deepest'];
+
+// log(myNestedArray);
 
 //////////////////////////////////////////// unit 13 //////////////////////////////////////////
 
