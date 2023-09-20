@@ -84,7 +84,28 @@ log('www');
 
 //////////////////////////////////////////// unit 9 //////////////////////////////////////////
 
+// function spreadOut() {
+//   let fragment = ['to', 'code'];
+//   let sentence = ['learning', ...fragment, 'is', 'fun'];// Змініть цей рядок
+//   return sentence;
+// }
+
+// log(spreadOut());
+
 //////////////////////////////////////////// unit 10 //////////////////////////////////////////
+
+function quickCheck(arr, elem) {
+  // Змініть код лише під цим рядком
+  if (arr.indexOf(elem) >= 0) {
+    return true;
+  }
+  else {
+    return false;
+  }
+  // Змініть код лише над цим рядком
+}
+
+log(quickCheck(['squash', 'onions', 'shallots'], 'mushroooms'));
 
 //////////////////////////////////////////// unit 11 //////////////////////////////////////////
 
