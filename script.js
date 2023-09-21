@@ -211,8 +211,67 @@ let log = console.log;
 
 //////////////////////////////////////////// unit 17 //////////////////////////////////////////
 
+// let users = {
+//   Alan: {
+//     age: 27,
+//     online: true
+//   },
+//   Jeff: {
+//     age: 32,
+//     online: true
+//   },
+//   Sarah: {
+//     age: 48,
+//     online: true
+//   },
+//   Ryan: {
+//     age: 19,
+//     online: true
+//   }
+// };
+
+// function isEveryoneHere(userObj) {
+//   // Змініть код лише під цим рядком
+// if(userObj.hasOwnProperty('Alan') && userObj.hasOwnProperty('Jeff') && userObj.hasOwnProperty('Sarah') && userObj.hasOwnProperty('Ryan')){
+//   return true;
+// } else {
+//   return false;
+// }
+//   // Змініть код лише над цим рядком
+// }
+
+// console.log(isEveryoneHere(users));
+
 //////////////////////////////////////////// unit 18 //////////////////////////////////////////
 
+const users = {
+  Alan: {
+    online: false
+  },
+  Jeff: {
+    online: true
+  },
+  Sarah: {
+    online: false
+  }
+}
+let count = 0;
+function countOnline(allUsers) {
+  // Змініть код лише під цим рядком
+
+  for (let person in allUsers) {
+    log(person, allUsers['person']);
+    // if (person.online.hasOwnProperty('true')) {
+    //   count++;
+    // }
+    // return count;
+  }
+
+  // Змініть код лише над цим рядком
+}
+
+log(countOnline(users));
+//log(users.Alan.online);
 //////////////////////////////////////////// unit 19 //////////////////////////////////////////
 
 //////////////////////////////////////////// unit 20 //////////////////////////////////////////
