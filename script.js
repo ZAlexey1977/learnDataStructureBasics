@@ -244,34 +244,33 @@ let log = console.log;
 
 //////////////////////////////////////////// unit 18 //////////////////////////////////////////
 
-const users = {
-  Alan: {
-    online: false
-  },
-  Jeff: {
-    online: true
-  },
-  Sarah: {
-    online: false
-  }
-}
-let count = 0;
-function countOnline(allUsers) {
-  // Змініть код лише під цим рядком
+// const users = {
+//   Alan: {
+//     online: false
+//   },
+//   Jeff: {
+//     online: true
+//   },
+//   Sarah: {
+//     online: false
+//   }
+// }
 
-  for (let person in allUsers) {
-    log(person, allUsers['person']);
-    // if (person.online.hasOwnProperty('true')) {
-    //   count++;
-    // }
-    // return count;
-  }
+// function countOnline(allUsers) {
+//   // Змініть код лише під цим рядком
+//   let count = 0;
+//   for (let person in allUsers) {
+//     log(person, allUsers[person]);
+//     if (allUsers[person].online == true) {
+//       count++;
+//     }
+//   }
+//   return count;
+//   // Змініть код лише над цим рядком
+// }
 
-  // Змініть код лише над цим рядком
-}
+// log(countOnline(users));
 
-log(countOnline(users));
-//log(users.Alan.online);
 //////////////////////////////////////////// unit 19 //////////////////////////////////////////
 
 //////////////////////////////////////////// unit 20 //////////////////////////////////////////
